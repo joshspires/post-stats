@@ -50,7 +50,7 @@ export default function Example() {
                     <p class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~100,000</p>
                   </div>
                 </div>
-                <div class="container mx-auto p-4 grid grid-cols-1 sm:grid-cols-2 m-10 gap-4 bg-transparent border border-gray-200 rounded-lg shadow-md dark:bg-transparent dark:border-gray-700">
+                <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 m-10 gap-4 rounded-lg shadow-md bg-transparent">
                   <h2 class="col-span-full text-3xl dark:text-white font-bold tracking-tight text-center sm:text-4xl">Post stats</h2>
                   <div class="col-span-1 flex flex-col p-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">The first Post:</h5>
@@ -88,8 +88,8 @@ export default function Example() {
                       </a>
                     </div>
                   </div>
-                </div>
-                <div class="container mx-auto p-4 grid grid-cols-1 sm:grid-cols-2 m-10 gap-4 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+                  </div>
+                  <div class="container mx-auto p-4 grid grid-cols-1 sm:grid-cols-2 m-10 gap-4 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
                   <h2 class="col-span-full text-3xl dark:text-white font-bold tracking-tight text-center sm:text-4xl">About Post.</h2>
                   <p class="dark:text-white text-center col-span-full">Post. was co-founded in May 2022 by Noam Bardin & Noel Baron with the goal of creating a social platform for real peopkle, real news, and civil conversations.</p>
                   <div class="col-span-1 flex flex-col p-4">
