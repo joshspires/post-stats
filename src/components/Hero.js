@@ -1,4 +1,4 @@
-export default function Example() {
+export default function Landing() {
   return (
     <div className="isolate bg-white dark:bg-black h-full">
       <main>
