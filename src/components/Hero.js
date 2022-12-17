@@ -1,36 +1,9 @@
-export default function Example() {
+export default function Landing() {
   return (
     <div className="isolate bg-white dark:bg-black h-full">
-      <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
-        <svg
-          className="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
-          viewBox="0 0 1155 678"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            fill="url(#45de2b6b-92d5-4d68-a6a0-9b9b2abad533)"
-            fillOpacity=".3"
-            d="M317.219 518.975L203.852 678 0 438.341l317.219 80.634 204.172-286.402c1.307 132.337 45.083 346.658 209.733 145.248C936.936 126.058 882.053-94.234 1031.02 41.331c119.18 108.451 130.68 295.337 121.53 375.223L855 299l21.173 362.054-558.954-142.079z"
-          />
-          <defs>
-            <linearGradient
-              id="45de2b6b-92d5-4d68-a6a0-9b9b2abad533"
-              x1="1155.49"
-              x2="-78.208"
-              y1=".177"
-              y2="474.645"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop stopColor="#9089FC" />
-              <stop offset={1} stopColor="#FF80B5" />
-            </linearGradient>
-          </defs>
-        </svg>
-      </div>
       <main>
         <div className="relative px-6 lg:px-8">
-          <div className="mx-auto max-w-3xl pt-20 pb-32 sm:pt-48 sm:pb-40">
+          <div className="mx-auto max-w-3xl pt-16 pb-8">
             <div>
               <div>
                 <h1 className="text-4xl dark:text-white font-bold tracking-tight text-center sm:text-6xl">
@@ -39,38 +12,22 @@ export default function Example() {
                 <p className="mt-6 text-lg leading-8 text-gray-600 text-center dark:text-white">
                   A collection of interesting stats from Post.news. Manual, pending the release of the Post. API.
                 </p>
-                <div class="container mx-auto p-4 grid grid-cols-1 sm:grid-cols-2 m-10 gap-4 bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700">
-                  <h2 class="col-span-full text-3xl dark:text-white font-bold tracking-tight text-center sm:text-4xl">Overall stats</h2>
+                <div class="container mx-auto p-4 grid grid-cols-1 sm:grid-cols-2 m-10 gap-4 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+                  <h2 class="col-span-full text-3xl dark:text-white font-bold tracking-tight text-center sm:text-4xl">User stats</h2>
                   <div class="col-span-1 flex flex-col p-4">
-                    <p class="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white text-center">Waitlisted uses:</p>
-                    <p class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~442,000</p>
-                  </div>
-                  <div class="col-span-1 flex flex-col p-4">
-                    <p class="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white text-center">Users on platform:</p>
-                    <p class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~206,000</p>
-                  </div>
-                  <div class="col-span-1 flex flex-col p-4">
-                    <p class="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white text-center">Total likes on platform:</p>
-                    <p class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~2,900,000</p>
-                  </div>
-                  <div class="col-span-1 flex flex-col p-4">
-                    <p class="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white text-center">Total posts on platform:</p>
-                    <p class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~467,000</p>
-                  </div>
-                  <div class="col-span-1 flex flex-col p-4">
-                    <p class="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white text-center">Total images on platform:</p>
+                    <p class="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white text-center">Users on the waitlist:</p>
                     <p class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~370,000</p>
                   </div>
                   <div class="col-span-1 flex flex-col p-4">
-                    <p class="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white text-center">Total tips given:</p>
-                    <p class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~21,000</p>
+                    <p class="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white text-center">Users on the platform:</p>
+                    <p class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~100,000</p>
                   </div>
                 </div>
-                <div class="container mx-auto p-4 grid grid-cols-1 sm:grid-cols-2 m-10 gap-4 bg-transparent border border-gray-200 rounded-lg dark:bg-transparent dark:border-gray-700">
+                <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 m-10 gap-4 rounded-lg shadow-md bg-transparent">
                   <h2 class="col-span-full text-3xl dark:text-white font-bold tracking-tight text-center sm:text-4xl">Post stats</h2>
-                  <div class="col-span-1 flex flex-col p-6 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700">
+                  <div class="col-span-1 flex flex-col p-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">The first Post:</h5>
-                    <div class="w-full p-6 bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700">
+                    <div class="w-full p-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
                       <a href="https://post.news/article/2HJTNS65rT5fO9Mo2OWfSV90w2o" target="_blank" rel="noreferrer">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Hello World</h5>
                       </a>
@@ -86,9 +43,9 @@ export default function Example() {
                       </a>
                     </div>
                   </div>
-                  <div class="col-span-1 flex flex-col p-6 bg-gray-100 border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700">
+                  <div class="col-span-1 flex flex-col p-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">The most viral Post:</h5>
-                    <div class="w-full p-6 bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700">
+                    <div class="w-full p-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
                       <a href="https://post.news/article/2I6dqgdsZbWh0df2UyfF7I17oUE" target="_blank" rel="noreferrer">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Can y’all repost this post to let folks know I’m on this dohicky?</h5>
                       </a>
@@ -104,10 +61,10 @@ export default function Example() {
                       </a>
                     </div>
                   </div>
-                </div>
-                <div class="container mx-auto p-4 grid grid-cols-1 sm:grid-cols-2 m-10 gap-4 bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700">
+                  </div>
+                  <div class="container mx-auto p-4 grid grid-cols-1 sm:grid-cols-2 m-10 gap-4 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
                   <h2 class="col-span-full text-3xl dark:text-white font-bold tracking-tight text-center sm:text-4xl">About Post.</h2>
-                  <p class="dark:text-white text-center col-span-full">Post. was co-founded in May 2022 by Noam Bardin & Noel Baron with the goal of creating a social platform for real people, real news, and civil conversations.</p>
+                  <p class="dark:text-white text-center col-span-full">Post. was co-founded in May 2022 by Noam Bardin & Noel Baron with the goal of creating a social platform for real peopkle, real news, and civil conversations.</p>
                   <div class="col-span-1 flex flex-col p-4">
                     <p class="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white text-center">Staff</p>
                     <p class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">18</p>
@@ -118,7 +75,7 @@ export default function Example() {
                   </div>
                 </div>
                 <p class="mt-6 text-lg leading-8 text-gray-600 dark:text-white text-center">
-                  Created by <a href="https://joshspires.com.au" target="_blank" rel="noreferrer">Joshua Spires</a>. Not affiliated with Post. Data source: Noam Bardin.
+                  Created by <a href="https://joshspires.com.au" target="_blank" rel="noreferrer">Joshua Spires</a>. Not affiliated with Post.
                 </p>
               </div>
             </div>
