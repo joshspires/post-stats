@@ -40,8 +40,18 @@ export default function Landing() {
                   </div>
                 </div>
                 <div class="container mx-auto p-4 grid grid-cols-1 sm:grid-cols-2 m-10 gap-4 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-                  <h2 class="col-span-full text-3xl dark:text-white font-bold tracking-tight text-center sm:text-4xl">Post stats</h2>
-                  <div class="w-full p-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+                  <h2 class="col-span-full text-3xl dark:text-white font-bold tracking-tight text-center sm:text-4xl">First post</h2>
+                  <div class="col-span-full p-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+                    <div class="flex mb-5">
+                      <div class="flex-none w-14 h-14 mr-5">
+                        <a href="https://post.news/noam" target="_blank" rel="noreferrer"><img alt="Noam Bardin on Post.news" src="https://d2pmpprut4wwdv.cloudfront.net/images/2HJRjxCYdUg7EdIGdljdehqq5f8" class="rounded-full"></img></a>
+                      </div>
+                      <div class="flex-initial w-64 text-gray-900 dark:text-white">
+                        <a href="https://post.news/noam" target="_blank" rel="noreferrer">
+                          <span class="font-bold text-xl">Noam Bardin</span></a><br></br>
+                        Chief Poster
+                      </div>
+                    </div>
                     <a href="https://post.news/article/2HJTNS65rT5fO9Mo2OWfSV90w2o" target="_blank" rel="noreferrer">
                       <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Hello World</h5>
                     </a>
@@ -56,7 +66,20 @@ export default function Landing() {
                       <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                     </a>
                   </div>
-                  <div class="w-full p-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+                </div>
+                <div class="container mx-auto p-4 grid grid-cols-1 sm:grid-cols-2 m-10 gap-4 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+                  <h2 class="col-span-full text-3xl dark:text-white font-bold tracking-tight text-center sm:text-4xl">Top post</h2>
+                  <div class="col-span-full p-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+                  <div class="flex mb-5">
+                      <div class="flex-none w-14 h-14 mr-5">
+                        <a href="https://post.news/avindman" target="_blank" rel="noreferrer"><img alt="Alexander S. Vindman on Post.news" src="https://d2pmpprut4wwdv.cloudfront.net/images/2I3bptMP2XaqMzzLkKVDhu6eTDA" class="rounded-full"></img></a>
+                      </div>
+                      <div class="flex-initial w-64 text-gray-900 dark:text-white">
+                        <a href="https://post.news/avindman" target="_blank" rel="noreferrer">
+                          <span class="font-bold text-xl">Alexander S. Vindman</span></a><br></br>
+                          #HereRightMatters
+                      </div>
+                    </div>
                     <a href="https://post.news/article/2I6dqgdsZbWh0df2UyfF7I17oUE" target="_blank" rel="noreferrer">
                       <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Can y’all repost this post to let folks know I’m on this dohicky?</h5>
                     </a>
@@ -85,7 +108,7 @@ export default function Landing() {
                   </div>
                 </div>
                 <p class="mt-6 text-lg leading-8 text-gray-600 dark:text-white text-center">
-                  Created by <a href="https://joshspires.com.au" target="_blank" rel="noreferrer">Joshua Spires</a>. Not affiliated with Post.
+                  Created by <a href="https://joshspires.com.au" target="_blank" rel="noreferrer">Joshua Spires</a>. Not affiliated with Post.<br></br>v0.1.1
                 </p>
               </div>
             </div>
