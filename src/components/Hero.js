@@ -12,6 +12,9 @@ export default function Landing() {
                 <p className="mt-6 text-lg leading-8 text-gray-600 text-center dark:text-white">
                   A collection of interesting stats from Post.news. Manual, pending the release of the Post. API.
                 </p>
+                <p class="mt-6 text-lg leading-8 text-gray-600 text-center dark:text-white">
+                  Follow me on Post. <a href="https://post.news/joshuas" target="_blank" rel="noreferrer">@joshuas</a>
+                </p>
                 <div class="container mx-auto p-4 grid grid-cols-1 sm:grid-cols-2 m-10 gap-4 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
                   <h2 class="col-span-full text-3xl dark:text-white font-bold tracking-tight text-center sm:text-4xl">Overall stats</h2>
                   <div class="col-span-1 flex flex-col p-4">
