@@ -17,21 +17,26 @@ export default function Landing() {
                 </p>
                 <div class="container mx-auto p-4 grid grid-cols-1 sm:grid-cols-2 m-10 gap-4 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
                   <h2 class="col-span-full text-3xl dark:text-white font-bold tracking-tight text-center sm:text-4xl">Overall stats</h2>
+                  <div class="col-span-2 flex flex-col p-4">
+                    <p class="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white text-center">Avrage time spent on Post.</p>
+                    <p class="mb-2 text tracking-tight text-gray-900 dark:text-white text-center">(22/12/2022)</p>
+                    <p class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">32 minutes</p>
+                  </div>
                   <div class="col-span-1 flex flex-col p-4">
                     <p class="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white text-center">Waitlisted users</p>
-                    <p class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~442,000</p>
+                    <p class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~610,000</p>
                   </div>
                   <div class="col-span-1 flex flex-col p-4">
                     <p class="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white text-center">Users on Post.</p>
-                    <p class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~206,000</p>
+                    <p class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~309,000</p>
                   </div>
                   <div class="col-span-1 flex flex-col p-4">
                     <p class="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white text-center">Total likes on Post.</p>
-                    <p class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~2,900,000</p>
+                    <p class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~6,200,000</p>
                   </div>
                   <div class="col-span-1 flex flex-col p-4">
                     <p class="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white text-center">Total posts on Post.</p>
-                    <p class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~467,000</p>
+                    <p class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~762,000</p>
                   </div>
                   <div class="col-span-1 flex flex-col p-4">
                     <p class="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white text-center">Total photos on Post.</p>
@@ -39,7 +44,15 @@ export default function Landing() {
                   </div>
                   <div class="col-span-1 flex flex-col p-4">
                     <p class="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white text-center">Total tips given</p>
-                    <p class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~21,000</p>
+                    <p class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~40,000</p>
+                  </div>
+                  <div class="col-span-1 flex flex-col p-4">
+                    <p class="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white text-center">Total articles purchased</p>
+                    <p class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~7,500</p>
+                  </div>
+                  <div class="col-span-1 flex flex-col p-4">
+                    <p class="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white text-center">Total follows on Post.</p>
+                    <p class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~3,200,000</p>
                   </div>
                 </div>
                 <div class="container mx-auto p-4 grid grid-cols-1 sm:grid-cols-2 m-10 gap-4 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
