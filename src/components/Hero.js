@@ -12,47 +12,46 @@ export default function Landing() {
                 <p className="mt-6 text-lg leading-8 text-gray-600 text-center dark:text-white">
                   A collection of interesting stats from Post.news. Manual, pending the release of the Post. API.
                 </p>
-                <p class="mt-6 text-lg leading-8 text-gray-600 text-center dark:text-white">
-                  Follow me on Post. <a href="https://post.news/joshuas" target="_blank" rel="noreferrer">@joshuas</a>
-                </p>
+                  <a href="https://post.news/joshuas" target="_blank" rel="noreferrer" class="mt-8 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-post-blue rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-post-blue dark:hover:bg-blue-700 dark:focus:ring-blue-800">Follow me on Post. @joshuas</a>
+                 <a href="https://joshspires.com.au/post-news-dark-mode/" target="_blank" rel="noreferrer" class="mt-8 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-post-blue rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-post-blue dark:hover:bg-blue-700 dark:focus:ring-blue-800">Dark mode for Post. now available</a>
                 <div class="container mx-auto p-4 grid grid-cols-1 sm:grid-cols-2 m-10 gap-4 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
                   <h2 class="col-span-full text-3xl dark:text-white font-bold tracking-tight text-center sm:text-4xl">Overall stats</h2>
                   <div class="col-span-2 flex flex-col p-4">
-                    <p class="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white text-center">Avrage time spent on Post.</p>
+                    <p class="mb-2 text-xl tracking-tight text-gray-900 dark:text-white text-center">Avrage time spent on Post.</p>
                     <p class="mb-2 text tracking-tight text-gray-900 dark:text-white text-center">(22/12/2022)</p>
-                    <p class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">32 minutes</p>
+                    <p class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">32 minutes</p>
                   </div>
                   <div class="col-span-1 flex flex-col p-4">
-                    <p class="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white text-center">Waitlisted users</p>
-                    <p class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~610,000</p>
+                    <p class="mb-2 text-xl tracking-tight text-gray-900 dark:text-white text-center">Waitlisted users</p>
+                    <p class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~610,000</p>
                   </div>
                   <div class="col-span-1 flex flex-col p-4">
-                    <p class="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white text-center">Users on Post.</p>
-                    <p class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~309,000</p>
+                    <p class="mb-2 text-xl tracking-tight text-gray-900 dark:text-white text-center">Users on Post.</p>
+                    <p class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~309,000</p>
                   </div>
                   <div class="col-span-1 flex flex-col p-4">
-                    <p class="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white text-center">Total likes on Post.</p>
-                    <p class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~6,200,000</p>
+                    <p class="mb-2 text-xl tracking-tight text-gray-900 dark:text-white text-center">Total likes on Post.</p>
+                    <p class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~6,200,000</p>
                   </div>
                   <div class="col-span-1 flex flex-col p-4">
-                    <p class="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white text-center">Total posts on Post.</p>
-                    <p class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~762,000</p>
+                    <p class="mb-2 text-xl tracking-tight text-gray-900 dark:text-white text-center">Total posts on Post.</p>
+                    <p class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~762,000</p>
                   </div>
                   <div class="col-span-1 flex flex-col p-4">
-                    <p class="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white text-center">Total photos on Post.</p>
-                    <p class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~370,000</p>
+                    <p class="mb-2 text-xl tracking-tight text-gray-900 dark:text-white text-center">Total photos on Post.</p>
+                    <p class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~370,000</p>
                   </div>
                   <div class="col-span-1 flex flex-col p-4">
-                    <p class="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white text-center">Total tips given</p>
-                    <p class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~40,000</p>
+                    <p class="mb-2 text-xl tracking-tight text-gray-900 dark:text-white text-center">Total tips given</p>
+                    <p class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~40,000</p>
                   </div>
                   <div class="col-span-1 flex flex-col p-4">
-                    <p class="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white text-center">Total articles purchased</p>
-                    <p class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~7,500</p>
+                    <p class="mb-2 text-xl tracking-tight text-gray-900 dark:text-white text-center">Total articles purchased</p>
+                    <p class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~7,500</p>
                   </div>
                   <div class="col-span-1 flex flex-col p-4">
-                    <p class="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white text-center">Total follows on Post.</p>
-                    <p class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~3,200,000</p>
+                    <p class="mb-2 text-xl tracking-tight text-gray-900 dark:text-white text-center">Total follows on Post.</p>
+                    <p class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~3,200,000</p>
                   </div>
                 </div>
                 <div class="container mx-auto p-4 grid grid-cols-1 sm:grid-cols-2 m-10 gap-4 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
@@ -124,7 +123,7 @@ export default function Landing() {
                   </div>
                 </div>
                 <p class="mt-6 text-lg leading-8 text-gray-600 dark:text-white text-center">
-                  Created by <a href="https://joshspires.com.au" target="_blank" rel="noreferrer">Joshua Spires</a>. Not affiliated with Post.<br></br>v0.1.1
+                  Created by <a href="https://joshspires.com.au" target="_blank" rel="noreferrer">Joshua Spires</a>. Not affiliated with Post.<br></br>v0.1.5
                 </p>
               </div>
             </div>
