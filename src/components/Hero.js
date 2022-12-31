@@ -12,8 +12,10 @@ export default function Landing() {
                 <p className="mt-6 text-lg leading-8 text-gray-600 text-center dark:text-white">
                   A collection of interesting stats from Post.news. Manual, pending the release of the Post. API.
                 </p>
-                  <a href="https://post.news/joshuas" target="_blank" rel="noreferrer" class="mt-8 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-post-blue rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-post-blue dark:hover:bg-blue-700 dark:focus:ring-blue-800">Follow me on Post. @joshuas</a>
-                 <a href="https://joshspires.com.au/post-news-dark-mode/" target="_blank" rel="noreferrer" class="mt-8 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-post-blue rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-post-blue dark:hover:bg-blue-700 dark:focus:ring-blue-800">Dark mode for Post. now available</a>
+                <div class="mt-8 text-center">
+                  <a href="https://post.news/joshuas" target="_blank" rel="noreferrer" class="mr-4 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-post-blue rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-post-blue dark:hover:bg-blue-700 dark:focus:ring-blue-800">Follow me on Post. @joshuas</a>
+                  <a href="https://joshspires.com.au/post-news-dark-mode/" target="_blank" rel="noreferrer" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-post-blue rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-post-blue dark:hover:bg-blue-700 dark:focus:ring-blue-800">Dark mode for Post. now available</a>
+                </div>
                 <div class="container mx-auto p-4 grid grid-cols-1 sm:grid-cols-2 m-10 gap-4 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
                   <h2 class="col-span-full text-3xl dark:text-white font-bold tracking-tight text-center sm:text-4xl">Overall stats</h2>
                   <div class="col-span-2 flex flex-col p-4">
@@ -85,14 +87,14 @@ export default function Landing() {
                 <div class="container mx-auto p-4 grid grid-cols-1 sm:grid-cols-2 m-10 gap-4 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
                   <h2 class="col-span-full text-3xl dark:text-white font-bold tracking-tight text-center sm:text-4xl">Top post</h2>
                   <div class="col-span-full p-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-                  <div class="flex mb-5">
+                    <div class="flex mb-5">
                       <div class="flex-none w-14 h-14 mr-5">
                         <a href="https://post.news/avindman" target="_blank" rel="noreferrer"><img alt="Alexander S. Vindman on Post.news" src="https://d2pmpprut4wwdv.cloudfront.net/images/2I3bptMP2XaqMzzLkKVDhu6eTDA" class="rounded-full"></img></a>
                       </div>
                       <div class="flex-initial w-64 text-gray-900 dark:text-white">
                         <a href="https://post.news/avindman" target="_blank" rel="noreferrer">
                           <span class="font-bold text-xl">Alexander S. Vindman</span></a><br></br>
-                          #HereRightMatters
+                        #HereRightMatters
                       </div>
                     </div>
                     <a href="https://post.news/article/2I6dqgdsZbWh0df2UyfF7I17oUE" target="_blank" rel="noreferrer">
@@ -114,16 +116,16 @@ export default function Landing() {
                   <h2 class="col-span-full text-3xl dark:text-white font-bold tracking-tight text-center sm:text-4xl">About Post.</h2>
                   <p class="dark:text-white text-center col-span-full">Post. was co-founded in May 2022 by Noam Bardin & Noel Baron with the goal of creating a social platform for real peopkle, real news, and civil conversations.</p>
                   <div class="col-span-1 flex flex-col p-4">
-                    <p class="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white text-center">Staff</p>
-                    <p class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">18</p>
+                    <p class="mb-2 text-xl tracking-tight text-gray-900 dark:text-white text-center">Staff</p>
+                    <p class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">19</p>
                   </div>
                   <div class="col-span-1 flex flex-col p-4">
-                    <p class="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white text-center">HQ</p>
-                    <p class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">New York, New York</p>
+                    <p class="mb-2 text-xl tracking-tight text-gray-900 dark:text-white text-center">HQ</p>
+                    <p class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">New York, New York</p>
                   </div>
                 </div>
                 <p class="mt-6 text-lg leading-8 text-gray-600 dark:text-white text-center">
-                  Created by <a href="https://joshspires.com.au" target="_blank" rel="noreferrer">Joshua Spires</a>. Not affiliated with Post.<br></br>v0.1.5
+                  Created by <a href="https://joshspires.com.au" target="_blank" rel="noreferrer">Joshua Spires</a>. Not affiliated with Post.<br></br>v0.1.6
                 </p>
               </div>
             </div>
