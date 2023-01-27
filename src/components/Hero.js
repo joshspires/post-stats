@@ -24,12 +24,8 @@ export default function Landing() {
                     <p class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">32 minutes</p>
                   </div>
                   <div class="col-span-1 flex flex-col p-4">
-                    <p class="mb-2 text-xl tracking-tight text-gray-900 dark:text-white text-center">Waitlisted users</p>
-                    <p class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~610,000</p>
-                  </div>
-                  <div class="col-span-1 flex flex-col p-4">
                     <p class="mb-2 text-xl tracking-tight text-gray-900 dark:text-white text-center">Users on Post.</p>
-                    <p class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~309,000</p>
+                    <p class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">~403,000</p>
                   </div>
                   <div class="col-span-1 flex flex-col p-4">
                     <p class="mb-2 text-xl tracking-tight text-gray-900 dark:text-white text-center">Total likes on Post.</p>
@@ -117,7 +113,7 @@ export default function Landing() {
                   <p class="dark:text-white text-center col-span-full">Post. was co-founded in May 2022 by Noam Bardin & Noel Baron with the goal of creating a social platform for real peopkle, real news, and civil conversations.</p>
                   <div class="col-span-1 flex flex-col p-4">
                     <p class="mb-2 text-xl tracking-tight text-gray-900 dark:text-white text-center">Staff</p>
-                    <p class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">19</p>
+                    <p class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">31</p>
                   </div>
                   <div class="col-span-1 flex flex-col p-4">
                     <p class="mb-2 text-xl tracking-tight text-gray-900 dark:text-white text-center">HQ</p>
@@ -125,7 +121,7 @@ export default function Landing() {
                   </div>
                 </div>
                 <p class="mt-6 text-lg leading-8 text-gray-600 dark:text-white text-center">
-                  Created by <a href="https://joshspires.com.au" target="_blank" rel="noreferrer">Joshua Spires</a>. Not affiliated with Post.<br></br>v0.1.6
+                  Created by <a href="https://joshspires.com.au" target="_blank" rel="noreferrer">Joshua Spires</a>. Not affiliated with Post.<br></br>v0.1.7
                 </p>
               </div>
             </div>
