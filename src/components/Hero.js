@@ -14,7 +14,8 @@ export default function Landing() {
                 </p>
                 <div class="mt-8 text-center">
                   <a href="https://post.news/joshuas" target="_blank" rel="noreferrer" class="mr-4 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-post-blue rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-post-blue dark:hover:bg-blue-700 dark:focus:ring-blue-800">Follow me on Post. @joshuas</a>
-                  <a href="https://joshspires.com.au/post-news-dark-mode/" target="_blank" rel="noreferrer" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-post-blue rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-post-blue dark:hover:bg-blue-700 dark:focus:ring-blue-800">Dark mode for Post. now available</a>
+                  <a href="https://joshspires.com.au/post-news-dark-mode/" target="_blank" rel="noreferrer" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-post-blue rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-post-blue dark:hover:bg-blue-700 dark:focus:ring-blue-800">Dark mode & Accessibility</a>
+                  <a href="https://post.news/auth/signup" target="_blank" rel="noreferrer" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-post-blue rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-post-blue dark:hover:bg-blue-700 dark:focus:ring-blue-800">Create an account</a>
                 </div>
                 <div class="container mx-auto p-4 grid grid-cols-1 sm:grid-cols-2 m-10 gap-4 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
                   <h2 class="col-span-full text-3xl dark:text-white font-bold tracking-tight text-center sm:text-4xl">Overall stats</h2>
@@ -121,7 +122,7 @@ export default function Landing() {
                   </div>
                 </div>
                 <p class="mt-6 text-lg leading-8 text-gray-600 dark:text-white text-center">
-                  Created by <a href="https://joshspires.com.au" target="_blank" rel="noreferrer">Joshua Spires</a>. Not affiliated with Post.<br></br>v0.1.7
+                  Created by <a href="https://joshspires.com.au" target="_blank" rel="noreferrer">Joshua Spires</a>. Not affiliated with Post.<br></br>v0.1.8
                 </p>
               </div>
             </div>
